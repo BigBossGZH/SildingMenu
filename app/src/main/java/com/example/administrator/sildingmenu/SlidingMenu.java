@@ -41,7 +41,7 @@ public class SlidingMenu extends HorizontalScrollView {
                             .applyDimension(TypedValue.COMPLEX_UNIT_DIP, 50f, getResources()
                                     .getDisplayMetrics()));
 //                    getDimension如果是dimen是dp或sp的单位,将其乘以density,如果是px,
-//                    则不乘，返回类型为float。getDimensionPixelSize总体类似，但是当单位是px时，也会乘以density，返回类型为int。
+// 则不乘，返回类型为float。getDimensionPixelSize总体类似，但是当单位是px时，也会乘以density，返回类型为int。
                     break;
             }
         }
